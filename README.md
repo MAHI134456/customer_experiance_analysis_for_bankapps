@@ -32,4 +32,21 @@ Includes GitHub Actions CI pipeline
 
 ---
 
+# Folder structure
+
+customer_experience_analytics/
+├── data/
+│ ├── raw/ # Raw scraped reviews
+│ └── processed/ # Cleaned review data
+├── reports/
+│ └── figures/ # Sentiment charts, word clouds
+├── notebooks/ # Exploratory analysis and visualization
+├── scripts/
+│ ├── scraper.py # Scrapes reviews from Google Play
+│ ├── sentiment_analysis.py # Analyzes tone of reviews
+│ └── theme_extractor.py # Extracts common topics and complaints
+├── .github/workflows/
+│ └── ci.yml # Runs tests automatically
+├── requirements.txt # Libraries used in the project
+├── README.md # You're here!
 
