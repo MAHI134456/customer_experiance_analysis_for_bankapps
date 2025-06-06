@@ -112,6 +112,7 @@ gensim @ file:///C:/b/abs_efsh9stgvi/croot/gensim_1725376635600/work
 gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
 GitPython @ file:///C:/b/abs_2bkslnqz4i/croot/gitpython_1720455044865/work
 google-pasta==0.2.0
+google-play-scraper==1.2.7
 greenlet @ file:///C:/b/abs_a6c75ie0bc/croot/greenlet_1702060012174/work
 grpcio==1.71.0
 h11 @ file:///C:/b/abs_1czwoyexjf/croot/h11_1706652332846/work
