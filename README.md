@@ -38,12 +38,15 @@ Includes GitHub Actions CI pipeline
 customer_experience_analytics_for_bankapps/
 ├── data/
 │   ├── raw/                  # Raw scraped reviews
+│   │ └──bank_app_reviews.csv 
 │   └── processed/            # Cleaned review data
+|   └── bank_app_reviews_processed.csv
 ├── reports/
 │   └── figures/              # Sentiment charts, word clouds
 ├── notebooks/                # Exploratory analysis and visualization
 ├── scripts/
 │   ├── scraper.py            # Scrapes reviews from Google Play
+|   ├── preprocess_bank_app_reviews.py # Cleans and prepares raw scraped data
 │   ├── sentiment_analysis.py # Analyzes tone of reviews
 │   └── theme_extractor.py    # Extracts common topics and complaints
 ├── .github/workflows/
@@ -52,3 +55,11 @@ customer_experience_analytics_for_bankapps/
 ├── README.md                 # You're here!
 
 
+```
+##  Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/MAHI134456/customer_experience_analytics_for_bankapps.git 
+cd customer_experience_analytics_for_bankapps
