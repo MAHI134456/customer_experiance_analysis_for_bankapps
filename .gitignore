@@ -1,5 +1,7 @@
 # ignoring virtual environment
 .venv/
+venv/
+sentiment_env/
 # ignoring Python cache files
 __pycache__/
 # ignoring Jupyter Notebook checkpoints
